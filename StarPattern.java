@@ -10,3 +10,4 @@ public class StarPattern {
         }
     }
 }
+// This is only for purpose of Jenkins
