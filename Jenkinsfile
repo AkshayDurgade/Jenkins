@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label "linux"
+        label "Slave2"
     }
     options {
         buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: ''))
