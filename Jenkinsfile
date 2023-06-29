@@ -3,7 +3,7 @@ pipeline {
         label "linux"
     }
     options {
-        buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', artifactNumToKeepStr: '5'))
+        buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: ''))
         disableConcurrentBuilds()
     }
     stages {
