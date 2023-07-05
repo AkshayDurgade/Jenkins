@@ -7,7 +7,7 @@ pipeline
                 {
                         steps 
                         {
-                                echo 'Hi, Hellow This is stage One made by Akshay and not working'
+                                echo 'Hi, Hellow This is stage One made by Akshay and '
                         }
                 }
                 stage('Two') 
