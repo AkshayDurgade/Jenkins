@@ -7,7 +7,7 @@ pipeline
                 {
                         steps 
                         {
-                                echo 'Hi, Hellow This is stage One by branch Akshay1 and working'
+                                echo 'Hi, Hellow This is stage One by branch Akshay1'
                         }
                 }
                 stage('Two') 
